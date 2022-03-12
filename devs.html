@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marcos Vinícius Rodrigues da Conceição">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Padrões WEB</title>
+</head>
+
+<body>
+    <header>
+        <h1>Desenvolvedores</h1>
+        <section>
+            <div id="name">
+                <label>Por nome:</label>
+                <input id="nameSearch" placeholder="Digite aqui" type="text">
+            </div>
+            <div id="language">
+                <label>Por Linguagem:</label>
+                <div id="condition">
+                    <label>
+                        <input id="1" type="radio" , name="option" checked>
+                        <span>E</span>
+                    </label>
+                    <label>
+                        <input id="2" type="radio" , name="option">
+                        <span>OU</span>
+                    </label>
+                </div>
+            </div>
+            <div id="languageOptions">
+                <label>
+                    <input type="checkbox" name="java" id="java" checked>
+                    <span>Java</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="js" id="js" checked>
+                    <span>Javascript</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="php" id="php" checked>
+                    <span>PHP</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="python" id="pyhton" checked>
+                    <span>Python</span>
+                </label>
+            </div>
+        </section>
+    </header>
+    <section class="result">
+        <div class="countResults">
+            <span id="count_result"></span>
+            <span>Resultados</span>
+        </div>
+        <div class="container">
+            <div class="card" id="card"></div>
+            <div class="profilePicture">
+                <img class="image" src="./images/e2d18d87-1b5f-4215-aac4-79539d82e952.jpg" alt="desenvolvedores">
+            </div>
+            <div class="profileDescription">
+                <div class="info">
+                    <h3 class="card-title" name="username">Maria Lopes</h3>
+                    <small name="age">25</small>
+                    <small name="mail">maria@gmail.com</small>
+                    <span name="phone">61-89659588</span>
+                    <span name="github">http://github.com/marialopes</span>
+                    <span name="description">Formada em Matemática</span>
+                    <span name="descriptionAbility">
+                        Experiências: 
+                        - Mobile
+                        - Análise de Sistemas
+                        - DevOps
+                        - Programação Web
+                        - Adm. de Banco de Dados (DBA)
+                        - Gerência de Projeto
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
